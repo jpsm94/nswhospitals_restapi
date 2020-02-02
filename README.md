@@ -12,7 +12,7 @@ cd nswhospitals_restapi
 
 # Data Preparation
 - SQLite database, NSW_HOSPITALS.sqlite is included in the repo
-- see the Jupyter Notebook, nswhospitals_dataprep.ipynb for details on setting up the database
+- see the Jupyter Notebook, nswhospitals_dataprep.ipynb for details on how the database was set up
 
 # Running the application
 ## Install required Python libraries
