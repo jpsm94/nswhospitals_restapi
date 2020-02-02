@@ -72,7 +72,7 @@ class HospitalBySuburb(Resource):
     def get(self, SUBURB):
         db = get_db()
         details_cur = db.execute(
-            'select * from NSW_HOSPITALS where Suburb = ? COLLATE NOCASE', [SUBURB])
+            'select * from NSW_HOSPITALS where Suburb LIKE ? COLLATE NOCASE', [SUBURB])
         details = details_cur.fetchall()
 
         return_values = get_return_values(details)
@@ -102,7 +102,7 @@ class HospitalByLHD(Resource):
     def get(self, LOCALHEALTHDISTRICT):
         db = get_db()
         details_cur = db.execute(
-            'select * from NSW_HOSPITALS where LocalHealthDistrict = ? COLLATE NOCASE', [LOCALHEALTHDISTRICT])
+            'select * from NSW_HOSPITALS where LocalHealthDistrict LIKE ? COLLATE NOCASE', [LOCALHEALTHDISTRICT])
         details = details_cur.fetchall()
 
         return_values = get_return_values(details)
