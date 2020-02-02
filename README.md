@@ -6,6 +6,7 @@ https://data.nsw.gov.au/data/dataset/nsw-hospitals
 
 # Data Preparation
 See Jupyter Notebook: nswhospitals_dataprep.ipynb
+- this will create the database, NSW_HOSPITALS.sqlite 
 
 # Running the application
 ## Install required Python libraries
