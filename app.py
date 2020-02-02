@@ -5,7 +5,7 @@ from os import path
 
 app = Flask(__name__)
 api = Api(app, version='1.0', title='Data Service for NSW Hospitals',
-          description='This is a Flask-Restplus data service that allows a client to consume APIs related to Hospitals in NSW',
+          description='This is a Flask-Restplus data service that provides APIs for searching hospitals in NSW',
           )
 
 #Database helper
