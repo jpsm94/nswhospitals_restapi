@@ -7,7 +7,7 @@ https://data.nsw.gov.au/data/dataset/nsw-hospitals
 # Data Preparation
 See Jupyter Notebook: nswhospitals_dataprep.ipynb
 
-# Running the applications
+# Running the application
 ## Install required Python libraries
 ```
 pip install -r requirements.txt 
